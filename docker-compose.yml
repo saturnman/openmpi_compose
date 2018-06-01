@@ -21,7 +21,7 @@ services:
 networks:
   mesos-overlay:
     external:
-      name: mesos-overlay 
+      name: mpi-overlay 
 volumes:
   data:
     driver: local
